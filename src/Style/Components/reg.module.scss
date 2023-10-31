@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&family=Rubik&family=Satisfy&display=swap");
+
+.Card {
+  width: 457px;
+  height: 518px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 0;
+  padding: 15px;
+  border-color: black;
+  background: rgba(123, 94, 129, 0.167);
+  border-radius: 15px;
+  font-family: "Libre Franklin", sans-serif;
+  .sign__btn {
+    margin-top: 5px;
+    background-color: white;
+    border-color: grey;
+    font-family: "Montserrat", sans-serif;
+  }
+  input {
+    padding: 5px 10px;
+    width: 50%;
+    height: 5%;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+  }
+  p {
+  }
+}
