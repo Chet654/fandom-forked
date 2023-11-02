@@ -22,20 +22,7 @@ const Reg = () => {
   return (
     <div className={classes["Card"]}>
       {reg ? <h1>Registration</h1> : <h1>Login</h1>}
-      <p>Phone number:</p>
-      <input
-        value={number}
-        onChange={(e) => setNumber(e.currentTarget.value)}
-        placeholder="+7 (___)"
-        type="number"
-      />
-      <p>Password:</p>
-      <input
-        value={password}
-        onChange={(e) => setPassword(e.currentTarget.value)}
-        placeholder="**********"
-        type="text"
-      />
+     
       <UIInput
         text={"пароль"}
         value={customLogin}
